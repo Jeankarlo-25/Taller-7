@@ -226,7 +226,7 @@ public class MainFrame extends JFrame {
             txtBuscar.setText(codigo);
             areaRastreo.setText(envio.generarReporteRastreo());
         } catch (PaqueteriaException ignored) {
-            // No es necesario mostrar un segundo mensaje aqui.
+          
         }
     }
 
