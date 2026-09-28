@@ -9,7 +9,7 @@ public class Main {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception ignored) {
-            // El sistema continua con el estilo por defecto de Swing.
+            
         }
         MainFrame.mostrar();
     }
