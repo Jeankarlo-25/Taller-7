@@ -25,10 +25,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-/**
- * Capa de servicio: concentra las reglas del sistema para que la interfaz
- * grafica no manipule directamente las colecciones.
- */
+
 public class SistemaPaqueteriaService {
     private final Map<String, Envio> enviosPorCodigo = new HashMap<>();
     private final List<Envio> historialEnvios = new ArrayList<>();
